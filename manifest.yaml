@@ -1,0 +1,16 @@
+manifestVersion: 1
+name: "@bmonty/slack-commands"
+version: "2026.10.27.1"
+license: MIT
+description: "Run swamp workflows from Slack slash commands: verify Slack's request signature, parse the command, allow-list users and channels per subcommand, and reply to Slack immediately."
+repository: https://github.com/bmontgomery/swamp-slack-commands
+
+webhooks:
+  - slack_command.ts
+additionalFiles:
+  - README.md
+  - LICENSE
+labels:
+  - slack
+  - chatops
+  - webhooks
